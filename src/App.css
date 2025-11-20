@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+
+header h1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #a435f0;
+}
+
+
+.hero {
+  background: url("https://img-c.udemycdn.com/notices/web_banner/slide1.png") no-repeat center center/cover;
+  padding: 120px 40px;
+  color: black;
+}
+
+
+.hero-box {
+  background: white;
+  display: inline-block;
+  padding: 40px;
+  max-width: 450px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
